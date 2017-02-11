@@ -12,32 +12,31 @@ for (i = 0; i < scores.length; i++) {
   if(scores[i] < 61){
     
     gradeF += 1;
-    //console.log('Grade F');
+    
     
   }else if(scores[i] < 71){
    
     gradeD += 1;
-    //console.log('Grade D');
+    
     
   }else if(scores[i] < 81){
     
     gradeC += 1;
-    //console.log('Grade C');
+    
     
   }else if(scores[i] < 91){
    
     gradeB += 1;
-    //console.log('Grade B');
+    
     
   }else {
     
     gradeA += 1;
-    //console.log("Grade A");
+    
   }
 
 }
 
-//console.log(gradeF, gradeD, gradeC, gradeB, gradeA);
 
 console.log(gradeA + " students scored an A");
 console.log(gradeB + " students scored a B");
